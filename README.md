@@ -5,4 +5,4 @@ Faur tanárúrnak projekt munka
 <br>
 <br>
 <br>
-![a](https://astrowolf.hu/special/merp_chipi.mp4)
+![a](https://tenor.com/hu/view/merp-gif-27622986)
