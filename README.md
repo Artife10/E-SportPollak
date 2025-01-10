@@ -7,4 +7,4 @@ Faur tanárúrnak projekt munka
 <br>
 <img src="https://media.tenor.com/Z6SD6vtXZS8AAAAj/merp.gif">
 ### merp
-<img srch="https://i.pinimg.com/originals/56/1e/7b/561e7b694e8a38c0f0605e47a8d23de9.jpg">
+<img src="[https://i.pinimg.com/originals/56/1e/7b/561e7b694e8a38c0f0605e47a8d23de9.jpg](https://i.pinimg.com/736x/56/1e/7b/561e7b694e8a38c0f0605e47a8d23de9.jpg)">
