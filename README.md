@@ -1,4 +1,4 @@
 # E-SportPollak
 Faur tanárúrnak projekt munka
 <br>
-![:3](https://cdn3.emoji.gg/emojis/7508_plead.png)
+![:3](https://sergal.au/img/sergal-1.png)
