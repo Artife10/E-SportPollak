@@ -5,4 +5,4 @@ Faur tanárúrnak projekt munka
 <br>
 <br>
 <br>
-![a](https://tenor.com/hu/view/merp-gif-27622986)
+<img src="https://tenor.com/hu/view/merp-gif-27622986">
