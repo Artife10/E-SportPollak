@@ -1,0 +1,28 @@
+body {
+    background-image: url('../img/naja.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter', serif;   
+    color: rgb(104, 168, 228);
+    text-align: center;
+}
+.wawa{
+    height: 100px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+
+    border-style: solid;
+    border-width: 5px;
+}
+table{
+    margin: auto;    
+    text-align: center;
+}
+
+td {
+    width: 40%;
+    padding: 10%;
+}
