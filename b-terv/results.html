@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Szabályok</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+      }
+      .hero-section {
+        background: linear-gradient(to bottom, #908fff, #0e2ac4);
+        color: white;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+      }
+      .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .rules-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .rules-list li {
+        background: #f0f8ff;
+        padding: 15px;
+        margin: 10px 0;
+        border-left: 5px solid #0072ff;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">E-sport Verseny</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Mi az E-sport?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Fordulók</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rules.html">Szabályok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Regisztráció</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="results.html">Eredmények</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section text-center py-5">
+      <div class="container">
+        <h1>Versenyszabályok</h1>
+        <p class="lead">Ismerd meg a verseny legfontosabb szabályait!</p>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Általános Szabályok</h2>
+      <ul class="rules-list">
+        <li>
+          Minden versenyzőnek tisztességesen kell játszania, csalás tilos!
+        </li>
+        <li>A részvétel 7-8. osztályos tanulók számára lehetséges.</li>
+        <li>
+          A mérkőzések pontos időpontját előre meghatározzuk, a késés kizárást
+          vonhat maga után.
+        </li>
+        <li>Sportszerű viselkedés elvárás minden résztvevőtől.</li>
+        <li>
+          Technikai problémák esetén azonnal értesíteni kell a szervezőket.
+        </li>
+      </ul>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+      <p>&copy; 2025 E-sport Verseny. Minden jog fenntartva.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
