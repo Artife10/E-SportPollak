@@ -2,7 +2,7 @@
 Faur tanárúrnak projekt munka
 
 <hr>
-(A B terv az A terv lett)<br>
+(A B terv az A terv lett) <br>
 Majd ha kész ott lesz a link
 
 <hr>
