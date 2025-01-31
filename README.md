@@ -4,7 +4,8 @@ Faur tanárúrnak projekt munka
 <hr>
 (A B terv az A terv lett) <br>
 Ot a link fent <br>
-
+<br>
+Terv: <br>
 <img src="terv.png">
 
 <hr>
