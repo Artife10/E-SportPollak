@@ -1,1 +1,1 @@
-OLD
+document.getElementById("sigma").innerHTML = "en elmentem a vasarba felpenzel"
