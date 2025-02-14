@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regisztráció</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+      }
+      .hero-section {
+        background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+        color: white;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+      }
+      .hero-section h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .form-section {
+        padding: 2rem 1rem;
+      }
+      .btn-primary {
+        background-color: #ff7e5f;
+        border: none;
+      }
+      .btn-primary:hover {
+        background-color: #e06d50;
+      }
+
+      .button {
+        cursor: pointer;
+        position: relative;
+        padding: 10px 24px;
+        font-size: 18px;
+        color: rgb(255 162 114);
+        border: 2px solid rgb(255 162 114);
+        border-radius: 34px;
+        background-color: transparent;
+        font-weight: 600;
+        transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        overflow: hidden;
+      }
+
+      .button::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 50px;
+        height: 50px;
+        border-radius: inherit;
+        scale: 0;
+        z-index: -1;
+        background-color: rgb(255 162 114);
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+
+      .button:hover::before {
+        scale: 3;
+      }
+
+      .button:hover {
+        color: #212121;
+        scale: 1.1;
+        box-shadow: 0 0px 20px rgb(255 162 114);
+      }
+
+      .button:active {
+        scale: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Pollák E-sport</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Mi az E-sport?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Fordulók</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rules.html">Szabályok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="register.html">Regisztráció</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="results.html">Eredmények</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section text-center py-5">
+      <div class="container">
+        <h1>Regisztráció</h1>
+        <p class="lead">
+          Csatlakozz az E-sport közösségünkhöz, és vegyél részt a versenyen!
+        </p>
+      </div>
+    </section>
+
+    <section class="form-section container my-5">
+      <h2 class="text-center mb-4">Töltsd ki az alábbi űrlapot</h2>
+      <form class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nevek</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Add meg a neveket vesszővel elválasztva"
+            required
+          />
+          <div class="invalid-feedback">Kérlek, add meg a neved!</div>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail cím</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Add meg az e-mail címed"
+            required
+          />
+          <div class="invalid-feedback">Kérlek, add meg az e-mail címed!</div>
+        </div>
+        <div class="mb-3">
+          <label for="age" class="form-label">Életkor</label>
+          <input
+            type="number"
+            class="form-control"
+            id="age"
+            placeholder="Add meg az életkorod"
+            min="12"
+            max="18"
+            required
+          />
+          <div class="invalid-feedback">
+            Kérlek, add meg az életkorod (12-18 év között)!
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="school" class="form-label">Iskola neve</label>
+          <input
+            type="text"
+            class="form-control"
+            id="school"
+            placeholder="Add meg az iskolád nevét"
+            required
+          />
+          <div class="invalid-feedback">Kérlek, add meg az iskolád nevét!</div>
+        </div>
+        <button class="button">Regisztráció</button>
+      </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+      <p>&copy; 2025 Pollák E-sport. Minden jog fenntartva.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+      (function () {
+        "use strict";
+        const forms = document.querySelectorAll(".needs-validation");
+        Array.from(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
+  </body>
+</html>
