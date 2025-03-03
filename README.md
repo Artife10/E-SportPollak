@@ -5,11 +5,11 @@ Faur tanárúrnak projekt munka
 
 Ez a project ez egy több hónapos project ahol hármunk egy E-SPORT POLLÁK nevezetű reklámoldalt csináltunk. Ez a project nagyon sok időbe fájt. Remélem tetszik! <br>
 Készítette: 
-<ul>
-  <li> <img src="b-terv/imgs/bakos.jpg" width="30" height="30">Bakos Dominik</li>
-  <li> <img src="b-terv/imgs/niko.png" width="30" height="30">Rátkai Krisztián Bence</li>
-  <li> <img src="b-terv/imgs/astro.png" width="30" height="30">Nagy Álmos Botond</li>
-</ul>
+###
+<h1 align="center">Készítette:</h1>
+<div align="center"><img src="b-terv/imgs/bakos.jpg"><h2>Bakos Dominik</h2></div>b<br>
+<div align="center"><img src="b-terv/imgs/astro.png"><h2>Nagy Álmos Botond</h2></div><br>
+<div align="center"><img src="b-terv/imgs/niko.png"><h2>Rátkai Krisztián Bence</h2></div><br>
 
 &copy; 2025 Pollák E-sport. Minden jog fenntartva.
 
