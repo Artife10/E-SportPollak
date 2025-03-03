@@ -1,0 +1,26 @@
+.container>h1{
+    margin-top: 5%;
+}
+body {
+    font-family: "Arial", sans-serif;
+  }
+  .hero-section {
+    background: linear-gradient(to bottom, #908fff, #0e2ac4);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  }
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .rules-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .rules-list li {
+    background: #f0f8ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #0072ff;
+    border-radius: 5px;
+  }
