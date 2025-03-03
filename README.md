@@ -11,6 +11,7 @@ Készítette:
   <li> <img src="b-terv/imgs/astro.png" width="30 height="30">Nagy Álmos Botond</li>
 </ul>
 
+&copy; 2025 Pollák E-sport. Minden jog fenntartva.
 
 <hr>
 (A B terv az A terv lett) <br>
