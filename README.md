@@ -17,7 +17,7 @@ Készítette:
 (A B terv az A terv lett) <br>
 Ot a link fent <br>
 <hr>
-## Btw kitakarítottam végre a repot!
+<h1>Btw kitakarítottam végre a repot!</h1>
 <hr>
 Terv: <br>
 <img src="terv.png">
