@@ -69,7 +69,7 @@
             placeholder="Add meg a neveket vesszővel elválasztva"
             required
           />
-          <div class="invalid-feedback">Kérlek, add meg a neved!</div>
+          <div class="invalid-feedback">Kérlek, add meg a neveiteket!</div>
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">E-mail cím</label>
@@ -101,7 +101,7 @@
           <label for="school" class="form-label">Iskola neve</label>
           <select id="school" name="school" class="form-control">
             <option value="">Válasszon iskolát</option>
-            <?php
+            <!--<?php
             $conn = mysqli_connect("localhost", "felhasznalo", "jelszo", "adatbazis");
             $query = "SELECT * FROM iskolak";
             $result = mysqli_query($conn, $query);
@@ -109,7 +109,7 @@
               echo "<option value='" . $row['id'] . "'>" . $row['nev'] . "</option>";
             }
             mysqli_close($conn);
-            ?>
+            ?>--> <!-- Még jó hogy ez nem működik egy .html fileban -->
           </select>
           <div class="invalid-feedback">Kérlek, add meg az iskolád nevét!</div>
         </div>
