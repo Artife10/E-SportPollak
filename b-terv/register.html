@@ -101,6 +101,7 @@
           <label for="school" class="form-label">Iskola neve</label>
           <select id="school" name="school" class="form-control">
             <option value="">Válasszon iskolát</option>
+            <option value='öskola'>Öskola 2000</option>
             <!--<?php
             $conn = mysqli_connect("localhost", "felhasznalo", "jelszo", "adatbazis");
             $query = "SELECT * FROM iskolak";
@@ -109,7 +110,8 @@
               echo "<option value='" . $row['id'] . "'>" . $row['nev'] . "</option>";
             }
             mysqli_close($conn);
-            ?>--> <!-- Még jó hogy ez nem működik egy .html fileban -->
+            ?>--> <!-- Még jó hogy ez nem működik egy .html fileban de megoldom neked valahogy majd
+            Csak ahoz kelleni fog xamp is és rohadtul nincs kedvem hozzá most -->
           </select>
           <div class="invalid-feedback">Kérlek, add meg az iskolád nevét!</div>
         </div>

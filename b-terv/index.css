@@ -25,8 +25,14 @@ body {
     padding: 5px;
     border-radius: 100px;
     border-style: solid;
-    border-color: gray;
+    border-color: rgb(49, 253, 66);
+    transition: 0.3s;
 }
+
+#small_image:hover{
+  border-radius: 10px;
+}
+
 #hafaszomatmaebbe{
   width: 60%;
   margin: auto;
