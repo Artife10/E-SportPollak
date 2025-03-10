@@ -7,9 +7,9 @@ Ez a project ez egy több hónapos project ahol hármunk egy E-SPORT POLLÁK nev
 Készítette: 
 ###
 <h1 align="center">Készítette:</h1>
-<div align="center"><img src="b-terv/imgs/bakos.jpg" width="256px" height="256px"><h2>Bakos Dominik</h2></div><br><br>
-<div align="center"><img src="b-terv/imgs/astro.png" width="256px" height="256px"><h2>Nagy Álmos Botond</h2></div><br><br>
-<div align="center"><img src="b-terv/imgs/niko.png" width="256px" height="256px"><h2>Rátkai Krisztián Bence</h2></div><br><br>
+<div align="center"><img src="b-terv/imgs/bakos.jpg" width="128px" height="128px"><h2>Bakos Dominik</h2></div><br><br>
+<div align="center"><img src="b-terv/imgs/astro.png" width="128px" height="128px"><h2>Nagy Álmos Botond</h2></div><br><br>
+<div align="center"><img src="b-terv/imgs/niko.png" width="128px" height="128px"><h2>Rátkai Krisztián Bence</h2></div><br><br>
 
 &copy; 2025 Pollák E-sport. Minden jog fenntartva.
 
