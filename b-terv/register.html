@@ -9,7 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="register.css" />
-    <meta name="description" content="Pollák E-sport">
+    <meta name="description" content="Pollák E-sport" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
@@ -101,19 +101,51 @@
           <label for="school" class="form-label">Iskola neve</label>
           <select id="school" name="school" class="form-control">
             <option value="">Válasszon iskolát</option>
-            <option value='öskola'>Öskola 2000</option>
-            <!--<?php
-            $conn = mysqli_connect("localhost", "felhasznalo", "jelszo", "adatbazis");
-            $query = "SELECT * FROM iskolak";
-            $result = mysqli_query($conn, $query);
-            while ($row = mysqli_fetch_assoc($result)) {
-              echo "<option value='" . $row['id'] . "'>" . $row['nev'] . "</option>";
-            }
-            mysqli_close($conn);
-            ?>--> <!-- Még jó hogy ez nem működik egy .html fileban de megoldom neked valahogy majd
-            Csak ahoz kelleni fog xamp is és rohadtul nincs kedvem hozzá most
-            
-            Kövi nap: még mindig nincs hozzá kedvem sorry de majd valamikor megcsinálom-->
+            <option value="oskolak">Öskola 2000</option>
+            <option value="csongrad">Csongrádi Általános Iskola</option>
+            <option value="szeged">
+              Szegedi Tudományegyetem Gyakorló Általános Iskola
+            </option>
+            <option value="makó">Makói Általános Iskola</option>
+            <option value="hodmezovasarhely">
+              Hódmezővásárhelyi Kossuth Lajos Gimnázium
+            </option>
+            <option value="sandorfalva">Sándorfalvi Általános Iskola</option>
+            <option value="deszk">Deszki Általános Iskola</option>
+            <option value="tiszapuspoki">Tiszapüspöki Általános Iskola</option>
+            <option value="kiszombor">Kiszombori Általános Iskola</option>
+            <option value="szatymaz">Szatymazi Általános Iskola</option>
+            <option value="peteri">Péterfai Általános Iskola</option>
+            <option value="szeged_gimnazium">
+              Szegedi Radnóti Miklós Kísérleti Gimnázium
+            </option>
+            <option value="hodmezovasarhely_gimnazium">
+              Hódmezővásárhelyi Szakképző Iskola
+            </option>
+            <option value="makoi_gimnazium">
+              Makói Kossuth Lajos Gimnázium
+            </option>
+            <option value="kecskemet">Kecskeméti Református Gimnázium</option>
+            <option value="kecskemet_iskola">
+              Kecskeméti Katona József Gimnázium
+            </option>
+            <option value="baja">Bajai Középiskola</option>
+            <option value="baja_iskola">Bajai Kossuth Lajos Gimnázium</option>
+            <option value="kalocsa">Kalocsai Középiskola</option>
+            <option value="soltvadkert">Soltvadkerti Általános Iskola</option>
+            <option value="bekescsaba">Békéscsabai Szakképző Iskola</option>
+            <option value="bekescsaba_gimnazium">
+              Békéscsabai Középiskola
+            </option>
+            <option value="gyula">Gyulai Erkel Ferenc Gimnázium</option>
+            <option value="oroshaza">Orosházi Általános Iskola</option>
+
+            <option value="szolnok">Szolnoki Szakképző Iskola</option>
+            <option value="szolnok_gimnazium">
+              Szolnoki Verseghy Ferenc Gimnázium
+            </option>
+            <option value="jaszbereny">Jászberényi Általános Iskola</option>
+            <option value="tiszafured">Tiszafüredi Általános Iskola</option>
           </select>
           <div class="invalid-feedback">Kérlek, add meg az iskolád nevét!</div>
         </div>
