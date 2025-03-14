@@ -26,6 +26,7 @@ body {
 
   .cta {
     display: flex;
+    margin: auto;
     padding: 11px 33px;
     text-decoration: none;
     font-size: 25px;
